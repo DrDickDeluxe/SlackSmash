@@ -1,21 +1,24 @@
 package main
 
-type SlackinAccountCreator struct {
+import (
+	"net/http"
+)
 
+type SlackinAccountCreator struct {
+	mailClient		MailClient
+	httpClient		*http.Client
+	baseUrl			string
+	inviteCode		string
 }
 
-/*
 func NewSlackinAccountCreator() *SlackinAccountCreator {
 	return &SlackinAccountCreator{}
 }
 
 func (this *SlackinAccountCreator) ApiBaseUrl() string {
-	return ""
+	return this.baseUrl
 }
 
 func (this *SlackinAccountCreator) InviteCode() string {
-
+	return this.inviteCode
 }
-
-func (this *SlackinAccountCreator)
-*/
