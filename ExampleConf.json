@@ -1,0 +1,25 @@
+{
+    "invite_url": "",
+    "account_creator": "PublicSlack",
+    "max_concurrent": 1,
+    "proxies": [
+        "127.0.0.1:9050"
+    ],
+    "mailboxes": [
+        "10MinuteMail"
+    ],
+    "channels": [
+        "general"
+    ],
+    "messages": [
+        "Hello, world"
+    ],
+    "delay_per_account": 1000,
+    "delay_per_message": 4000,
+    "names": [
+        "Raul",
+        "Alfonso",
+        "Big Ed",
+        "Mike"
+    ]
+}
